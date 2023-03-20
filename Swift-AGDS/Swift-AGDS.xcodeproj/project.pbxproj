@@ -14,7 +14,7 @@
 		6025C90129BFBD7A00F393ED /* Backtracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6025C90029BFBD7A00F393ED /* Backtracking.swift */; };
 		60D8269729BA87B400FA67D0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D8269629BA87B400FA67D0 /* main.swift */; };
 		60D8269F29BA87D700FA67D0 /* Recursion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D8269E29BA87D700FA67D0 /* Recursion.swift */; };
-		60F4525A29C3B427004FFBF2 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4525929C3B427004FFBF2 /* Search.swift */; };
+		60F4525A29C3B427004FFBF2 /* Searching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4525929C3B427004FFBF2 /* Searching.swift */; };
 		60F4525C29C3B432004FFBF2 /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4525B29C3B432004FFBF2 /* Sorting.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +40,7 @@
 		60D8269629BA87B400FA67D0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		60D8269E29BA87D700FA67D0 /* Recursion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recursion.swift; sourceTree = "<group>"; };
 		60D826A029BA91F000FA67D0 /* story.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = story.txt; sourceTree = "<group>"; };
-		60F4525929C3B427004FFBF2 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		60F4525929C3B427004FFBF2 /* Searching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searching.swift; sourceTree = "<group>"; };
 		60F4525B29C3B432004FFBF2 /* Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,7 +114,7 @@
 		60F4525829C3B412004FFBF2 /* SearchingSorting */ = {
 			isa = PBXGroup;
 			children = (
-				60F4525929C3B427004FFBF2 /* Search.swift */,
+				60F4525929C3B427004FFBF2 /* Searching.swift */,
 				60F4525B29C3B432004FFBF2 /* Sorting.swift */,
 			);
 			path = SearchingSorting;
@@ -183,7 +183,7 @@
 				6025C90129BFBD7A00F393ED /* Backtracking.swift in Sources */,
 				6025C8FD29BFBB0100F393ED /* Board.swift in Sources */,
 				60D8269F29BA87D700FA67D0 /* Recursion.swift in Sources */,
-				60F4525A29C3B427004FFBF2 /* Search.swift in Sources */,
+				60F4525A29C3B427004FFBF2 /* Searching.swift in Sources */,
 				60F4525C29C3B432004FFBF2 /* Sorting.swift in Sources */,
 				60D8269729BA87B400FA67D0 /* main.swift in Sources */,
 				6025C8FF29BFBB0800F393ED /* QueensSolver.swift in Sources */,

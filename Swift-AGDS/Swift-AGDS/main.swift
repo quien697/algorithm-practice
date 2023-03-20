@@ -7,12 +7,14 @@
 
 import Foundation
 
+// MARK: - Exhaustive Search - permutation
+
 //var perms = Set<String>()
 //permutationUnique("park", "", &perms) // &: "memory address of"
 //print(perms)
 
 
-// MARK: - Exhaustive Search
+// MARK: - Exhaustive Search - combinations
 
 //combinations("google", 3)
 
@@ -34,9 +36,25 @@ import Foundation
 
 // MARK: - N Queens
 
-var board = Board(size: 8)
+//var board = Board(size: 8)
 //solveQueens(board: &board)
-solveQueensWithBackTracking(board: &board)
-print("Possible Count = \(possibleCount)")
-print("Count = \(count)")
+//solveQueensWithBackTracking(board: &board)
+//print("Possible Count = \(possibleCount)")
+//print("Count = \(count)")
+
+// MARK: - Searching
+
+//let arr = [10, 2, 5, 4, 1, 8, 7, 9, 6, 3]
+//print(linearSearch(arr, 5)!)
+//print(binarySearch(arr, 4)) // error
+
+// MARK: - Sorting
+
+var arr = [10, 2, 5, 4, 1, 8, 7, 9, 6, 3]
+//print(bubbleSort(arr, >)) // error
+//print(selectionSort(arr, >))
+//print(insertionSort(arr, >))
+//print(mergeSort(arr, >))
+quickSort(&arr, 0, arr.count - 1, >)
+print(arr)
 
