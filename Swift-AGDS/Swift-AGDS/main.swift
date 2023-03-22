@@ -60,8 +60,8 @@ import Foundation
 
 // MARK: - String
 
-let text = "ABABCABCABABABABD"
-let pattern = "ABABD"
+//let text = "ABABCABCABABABABD"
+//let pattern = "ABABD"
 //let text = "INAHAYSTACKNEEDLEINA"
 //let pattern = "NEEDLE"
 
@@ -105,4 +105,39 @@ let pattern = "ABABD"
 //print("pull() = \(queue.dequeue()!)")
 //print(queue)
 //print("peek() = \(queue.peek()!)")
+
+
+// MARK: - Graph
+
+// n, m (# of vertices, # of edges)
+// m edges
+
+//6 8
+//1 2
+//1 5
+//2 3
+//2 4
+//2 5
+//5 4
+//4 3
+//4 6
+
+// n, m (# of vertices, # of edges)
+// m edges (i j w) w: weight
+
+//6 8
+//1 2 2
+//1 5 7
+//2 3 2
+//2 4 3
+//2 5 1
+//5 4 7
+//4 3 1
+//4 6 7
+
+//adjacencyMatrixRepresentation()
+//adjacencyListRepresentation()
+//adjacencyListWeightedRepresentation()
+//adjacencyListDFS()
+adjacencyListBFS()
 
