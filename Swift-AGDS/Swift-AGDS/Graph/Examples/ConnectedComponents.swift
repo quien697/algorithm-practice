@@ -1,5 +1,5 @@
 //
-//  BFS.swift
+//  ConnectedComponents.swift
 //  Swift-AGDS
 //
 //  Created by Quien on 2023/3/21.
@@ -7,22 +7,13 @@
 
 import Foundation
 
-// BFS: Breadth First Search
-func adjacencyListBFS() {
+func connectedComponents() {
   
-  func bfs(start: Int, adjList: inout [[Int]], visited: inout [Bool]) {
-    let queue = Queue<Int>()
-    queue.enqueue(item: start)
+  func dfs(start: Int, adjList: inout [[Int]], visited: inout [Bool]) {
     visited[start] = true
-    
-    while !queue.isEmpty() {
-      let vertex = queue.dequeue()!
-      print(vertex)
-      for v in adjList[vertex] {
-        if !visited[v] {
-          queue.enqueue(item: v)
-          visited[v] = true
-        }
+    for v in adjList[start] {
+      if !visited[v] {
+        dfs(start: v, adjList: &adjList, visited: &visited)
       }
     }
   }
@@ -45,5 +36,13 @@ func adjacencyListBFS() {
   }
   
   var visited = [Bool](repeating: false, count: n + 1)
-  bfs(start: 1, adjList: &adjList, visited: &visited)
+  var count = 0
+  for node in 1..<adjList.count {
+    if !visited[node] {
+      dfs(start: node, adjList: &adjList, visited: &visited)
+      count += 1
+    }
+  }
+  
+  print("There is \(count) connected components")
 }

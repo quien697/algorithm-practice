@@ -109,9 +109,9 @@ import Foundation
 
 // MARK: - Graph
 
+// Example
 // n, m (# of vertices, # of edges)
 // m edges
-
 //6 8
 //1 2
 //1 5
@@ -121,10 +121,9 @@ import Foundation
 //5 4
 //4 3
 //4 6
-
+// Example
 // n, m (# of vertices, # of edges)
 // m edges (i j w) w: weight
-
 //6 8
 //1 2 2
 //1 5 7
@@ -139,5 +138,59 @@ import Foundation
 //adjacencyListRepresentation()
 //adjacencyListWeightedRepresentation()
 //adjacencyListDFS()
-adjacencyListBFS()
+//adjacencyListBFS()
 
+// MARK: - Graph -> Examples -> Connected Components
+
+// Example
+//6 5
+//1 2
+//2 5
+//5 1
+//3 4
+//4 6
+// Example
+//6 8
+//1 2
+//2 5
+//5 1
+//3 4
+//4 6
+//5 4
+//2 4
+//2 3
+
+//connectedComponents()
+
+// MARK: - Graph -> Examples -> Bipartite
+
+// Example
+//2
+//3 2
+//1 3
+//2 3
+//4 4
+//1 2
+//2 3
+//3 4
+//4 2
+
+//isBipartiteWithDFS()
+
+// MARK: - Graph -> Examples -> Cyclic Permutation
+
+// Example
+//2
+//8
+//3 2 7 8 1 4 5 6
+//10
+//2 1 3 4 5 6 7 9 10 8
+
+//cyclicPermutation()
+
+// MARK: - Graph -> Examples -> Repeating Sequence
+
+// Example
+// 57 2
+
+repeatingSequence()

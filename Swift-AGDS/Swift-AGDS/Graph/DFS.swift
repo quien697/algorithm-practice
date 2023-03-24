@@ -7,7 +7,19 @@
 
 import Foundation
 
+// DFS: Depth First Search -> Stack, Recursion
 func adjacencyListDFS() {
+  
+  func dfs(start: Int, adjList: inout [[Int]], visited: inout [Bool]) {
+    visited[start] = true
+    print(start)
+    for v in adjList[start] {
+      if !visited[v] {
+        dfs(start: v, adjList: &adjList, visited: &visited)
+      }
+    }
+  }
+  
   let firstLine = readLine()!.split(separator: " ")
   // # of vertices
   let n = Int(firstLine[0])!
@@ -23,16 +35,6 @@ func adjacencyListDFS() {
     
     adjList[u].append(v) // undirected graph
     adjList[v].append(u) // undirected graph
-  }
-  
-  func dfs(start: Int, adjList: inout [[Int]], visited: inout [Bool]) {
-    visited[start] = true
-    print(start)
-    for v in adjList[start] {
-      if !visited[v] {
-        dfs(start: v, adjList: &adjList, visited: &visited)
-      }
-    }
   }
   
   var visited = [Bool](repeating: false, count: n + 1)
