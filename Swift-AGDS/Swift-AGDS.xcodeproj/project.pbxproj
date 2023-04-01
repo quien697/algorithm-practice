@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		600278E629D53D5600AF6B65 /* WhosMyParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600278E529D53D5600AF6B65 /* WhosMyParent.swift */; };
+		600278E829D5882A00AF6B65 /* Diameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600278E729D5882A00AF6B65 /* Diameter.swift */; };
 		6025C8E529BE3C8E00F393ED /* String+DPStringTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6025C8E429BE3C8E00F393ED /* String+DPStringTool.swift */; };
 		6025C8E729BE483400F393ED /* ExhaustiveSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6025C8E629BE483400F393ED /* ExhaustiveSearch.swift */; };
 		6025C8FD29BFBB0100F393ED /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6025C8FC29BFBB0100F393ED /* Board.swift */; };
@@ -43,6 +45,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		600278E529D53D5600AF6B65 /* WhosMyParent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhosMyParent.swift; sourceTree = "<group>"; };
+		600278E729D5882A00AF6B65 /* Diameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diameter.swift; sourceTree = "<group>"; };
 		6025C8E429BE3C8E00F393ED /* String+DPStringTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+DPStringTool.swift"; sourceTree = "<group>"; };
 		6025C8E629BE483400F393ED /* ExhaustiveSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhaustiveSearch.swift; sourceTree = "<group>"; };
 		6025C8FC29BFBB0100F393ED /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
@@ -79,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		600278E129D40C2700AF6B65 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				600278E429D53D1D00AF6B65 /* Examples */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+		600278E429D53D1D00AF6B65 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				600278E529D53D5600AF6B65 /* WhosMyParent.swift */,
+				600278E729D5882A00AF6B65 /* Diameter.swift */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
 		6025C8E329BE3C7100F393ED /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +147,7 @@
 		60D8269529BA87B400FA67D0 /* Swift-AGDS */ = {
 			isa = PBXGroup;
 			children = (
+				600278E129D40C2700AF6B65 /* Tree */,
 				60F4526729CA5441004FFBF2 /* Graph */,
 				60F4526029C8F408004FFBF2 /* DataStructures */,
 				60F4525D29C8EFD7004FFBF2 /* String */,
@@ -248,6 +270,7 @@
 			files = (
 				60C8079E29CE31A400B19C00 /* RepeatingSequence.swift in Sources */,
 				6025C8E529BE3C8E00F393ED /* String+DPStringTool.swift in Sources */,
+				600278E829D5882A00AF6B65 /* Diameter.swift in Sources */,
 				6025C8E729BE483400F393ED /* ExhaustiveSearch.swift in Sources */,
 				60F4526229C8F41C004FFBF2 /* Bag.swift in Sources */,
 				60F4526D29CAA48E004FFBF2 /* AdjacencyList.swift in Sources */,
@@ -266,6 +289,7 @@
 				60F4525C29C3B432004FFBF2 /* Sorting.swift in Sources */,
 				60D8269729BA87B400FA67D0 /* main.swift in Sources */,
 				6025C8FF29BFBB0800F393ED /* QueensSolver.swift in Sources */,
+				600278E629D53D5600AF6B65 /* WhosMyParent.swift in Sources */,
 				60F4526F29CAAF46004FFBF2 /* BFS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,7 +7,7 @@
 
 import Foundation
 
-// BFS: Breadth First Search
+// BFS: Breadth First Search -> Queue
 func adjacencyListBFS() {
   
   func bfs(start: Int, adjList: inout [[Int]], visited: inout [Bool]) {

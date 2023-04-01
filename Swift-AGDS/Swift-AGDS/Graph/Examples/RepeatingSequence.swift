@@ -7,6 +7,12 @@
 
 import Foundation
 
+
+/// Write a program that counts the number of integers in the sequence that are not part of the repeating sequence
+/// Input Specification:
+///   On the first line, A (1 <= A <= 9999) and P (1 <= P <= 5)
+/// Output Specification:
+///   The number of integers that are not part of the repeating sequence.
 func repeatingSequence() {
   
   func next(A: Int, P: Int) -> Int {

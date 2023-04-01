@@ -109,7 +109,7 @@ import Foundation
 
 // MARK: - Graph
 
-// Example
+// Example Input1
 // n, m (# of vertices, # of edges)
 // m edges
 //6 8
@@ -121,7 +121,7 @@ import Foundation
 //5 4
 //4 3
 //4 6
-// Example
+// Example Input2
 // n, m (# of vertices, # of edges)
 // m edges (i j w) w: weight
 //6 8
@@ -142,14 +142,14 @@ import Foundation
 
 // MARK: - Graph -> Examples -> Connected Components
 
-// Example
+// Example Input1
 //6 5
 //1 2
 //2 5
 //5 1
 //3 4
 //4 6
-// Example
+// Example Input2
 //6 8
 //1 2
 //2 5
@@ -164,7 +164,7 @@ import Foundation
 
 // MARK: - Graph -> Examples -> Bipartite
 
-// Example
+// Example Input
 //2
 //3 2
 //1 3
@@ -176,10 +176,11 @@ import Foundation
 //4 2
 
 //isBipartiteWithDFS()
+//isBipartiteWithBFS()
 
 // MARK: - Graph -> Examples -> Cyclic Permutation
 
-// Example
+// Example Input
 //2
 //8
 //3 2 7 8 1 4 5 6
@@ -190,7 +191,55 @@ import Foundation
 
 // MARK: - Graph -> Examples -> Repeating Sequence
 
-// Example
+// Example Input
 // 57 2
 
-repeatingSequence()
+//repeatingSequence()
+
+// MARK: - Graph -> Examples -> WhosMyParent
+
+// Example Input1
+//7
+//1 6
+//6 3
+//3 5
+//4 1
+//2 4
+//4 7
+// Example Input2
+//12
+//1 2
+//1 3
+//2 4
+//3 5
+//3 6
+//4 7
+//4 8
+//5 9
+//5 10
+//6 11
+//6 12
+
+//whosMyParent()
+
+// MARK: - Graph -> Examples -> Diameter
+
+// Example Input1
+//5
+//1 3 2 -1
+//2 4 4 -1
+//3 1 2 4 3 -1
+//4 2 4 3 3 5 6 -1
+//5 4 6 -1
+// Example Input2
+//8
+//1 3 2 -1
+//2 4 4 -1
+//3 1 2 4 3 6 2 -1
+//4 2 4 3 3 5 6 -1
+//5 4 6 -1
+//6 3 2 7 4 -1
+//7 6 4 8 5 -1
+//8 7 5 -1
+
+//diameter()

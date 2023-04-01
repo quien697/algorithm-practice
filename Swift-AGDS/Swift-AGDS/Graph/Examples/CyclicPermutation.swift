@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// https://en.wikipedia.org/wiki/Cyclic_permutation
 func cyclicPermutation() {
   
   func dfs(start: Int, nodes: inout [Int], check: inout [Bool]) {
