@@ -8,7 +8,6 @@
 import Foundation
 
 func whosMyParent() {
-  
   // use stack of node to visit next node
   func dfsWithNode(result: inout [Int:Int]) {
     let stack = Stack<(val: Int, parent: Int?)>()
@@ -27,25 +26,25 @@ func whosMyParent() {
   
   // use stack in an array to visit next node
   func dfsWithArray(result: inout [Int:Int]) {
-      var stack: [(node: Int, parent: Int?)] = []
-      stack.append((node: 1, parent: nil))
+    var stack: [(node: Int, parent: Int?)] = []
+    stack.append((node: 1, parent: nil))
     
-      while !stack.isEmpty {
-        let (node, parent) = stack.removeFirst()
-        result[node] = parent
-        for child in adjList[node] {
-          if child != parent {
-            stack.append((node: child, parent: node))
-          }
+    while !stack.isEmpty {
+      let (node, parent) = stack.removeFirst()
+      result[node] = parent
+      for child in adjList[node] {
+        if child != parent {
+          stack.append((node: child, parent: node))
         }
       }
+    }
   }
   
   // Create the adjacency list
   let n = Int(readLine()!)!
   let m = n - 1
   var adjList = [[Int]](repeating: [], count: n + 1)
-
+  
   for _ in 0..<m {
     let edge = readLine()!.split(separator: " ").map { Int($0)! }
     let u = edge[0]

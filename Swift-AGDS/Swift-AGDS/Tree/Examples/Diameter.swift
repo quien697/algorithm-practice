@@ -59,5 +59,3 @@ func diameter() {
   bfs(start: result.node, adjList: &adjList, result: &result)
   print(result.distance)
 }
-
-

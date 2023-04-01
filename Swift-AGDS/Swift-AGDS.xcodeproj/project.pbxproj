@@ -52,6 +52,42 @@
 		6025C8FC29BFBB0100F393ED /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 		6025C8FE29BFBB0800F393ED /* QueensSolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueensSolver.swift; sourceTree = "<group>"; };
 		6025C90029BFBD7A00F393ED /* Backtracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backtracking.swift; sourceTree = "<group>"; };
+		60BFB7A629D7E1E300FC72FB /* big10000.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = big10000.in; sourceTree = "<group>"; };
+		60BFB7A729D7E1E300FC72FB /* huge5.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge5.out; sourceTree = "<group>"; };
+		60BFB7A829D7E1E300FC72FB /* huge6.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge6.out; sourceTree = "<group>"; };
+		60BFB7A929D7E1E300FC72FB /* huge6.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge6.in; sourceTree = "<group>"; };
+		60BFB7AA29D7E1E300FC72FB /* big100.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = big100.out; sourceTree = "<group>"; };
+		60BFB7AB29D7E1E300FC72FB /* huge4.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge4.out; sourceTree = "<group>"; };
+		60BFB7AC29D7E1E300FC72FB /* big100.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = big100.in; sourceTree = "<group>"; };
+		60BFB7AD29D7E1E300FC72FB /* huge7.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge7.in; sourceTree = "<group>"; };
+		60BFB7AE29D7E1E300FC72FB /* sample4.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample4.out; sourceTree = "<group>"; };
+		60BFB7AF29D7E1E300FC72FB /* huge4.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge4.in; sourceTree = "<group>"; };
+		60BFB7B029D7E1E300FC72FB /* sample4.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample4.in; sourceTree = "<group>"; };
+		60BFB7B129D7E1E300FC72FB /* huge8.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge8.out; sourceTree = "<group>"; };
+		60BFB7B229D7E1E300FC72FB /* sample3.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample3.out; sourceTree = "<group>"; };
+		60BFB7B329D7E1E300FC72FB /* big500.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = big500.out; sourceTree = "<group>"; };
+		60BFB7B429D7E1E300FC72FB /* big50000.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = big50000.out; sourceTree = "<group>"; };
+		60BFB7B529D7E1E300FC72FB /* huge1.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge1.in; sourceTree = "<group>"; };
+		60BFB7B629D7E1E300FC72FB /* huge3.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge3.in; sourceTree = "<group>"; };
+		60BFB7B729D7E1E300FC72FB /* huge5.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge5.in; sourceTree = "<group>"; };
+		60BFB7B829D7E1E300FC72FB /* huge1.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge1.out; sourceTree = "<group>"; };
+		60BFB7B929D7E1E300FC72FB /* big5000.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = big5000.in; sourceTree = "<group>"; };
+		60BFB7BA29D7E1E300FC72FB /* huge9.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge9.out; sourceTree = "<group>"; };
+		60BFB7BB29D7E1E400FC72FB /* huge10.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge10.out; sourceTree = "<group>"; };
+		60BFB7BC29D7E1E400FC72FB /* huge10.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge10.in; sourceTree = "<group>"; };
+		60BFB7BD29D7E1E400FC72FB /* huge9.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge9.in; sourceTree = "<group>"; };
+		60BFB7BE29D7E1E400FC72FB /* sample3.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample3.in; sourceTree = "<group>"; };
+		60BFB7BF29D7E1E400FC72FB /* big10000.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = big10000.out; sourceTree = "<group>"; };
+		60BFB7C029D7E1E400FC72FB /* huge2.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge2.out; sourceTree = "<group>"; };
+		60BFB7C129D7E1E400FC72FB /* big500.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = big500.in; sourceTree = "<group>"; };
+		60BFB7C229D7E1E400FC72FB /* big1000.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = big1000.out; sourceTree = "<group>"; };
+		60BFB7C329D7E1E400FC72FB /* huge3.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge3.out; sourceTree = "<group>"; };
+		60BFB7C429D7E1E400FC72FB /* huge7.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge7.out; sourceTree = "<group>"; };
+		60BFB7C529D7E1E400FC72FB /* big5000.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = big5000.out; sourceTree = "<group>"; };
+		60BFB7C629D7E1E400FC72FB /* big50000.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = big50000.in; sourceTree = "<group>"; };
+		60BFB7C729D7E1E400FC72FB /* big1000.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = big1000.in; sourceTree = "<group>"; };
+		60BFB7C829D7E1E400FC72FB /* huge2.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge2.in; sourceTree = "<group>"; };
+		60BFB7C929D7E1E400FC72FB /* huge8.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge8.in; sourceTree = "<group>"; };
 		60C8079B29CE2E5F00B19C00 /* CyclicPermutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclicPermutation.swift; sourceTree = "<group>"; };
 		60C8079D29CE31A400B19C00 /* RepeatingSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingSequence.swift; sourceTree = "<group>"; };
 		60D8269329BA87B400FA67D0 /* Swift-AGDS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift-AGDS"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +130,7 @@
 		600278E429D53D1D00AF6B65 /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				60BFB7A529D7E1C100FC72FB /* Testing */,
 				600278E529D53D5600AF6B65 /* WhosMyParent.swift */,
 				600278E729D5882A00AF6B65 /* Diameter.swift */,
 			);
@@ -115,6 +152,49 @@
 				6025C8FE29BFBB0800F393ED /* QueensSolver.swift */,
 			);
 			path = "N-Queens";
+			sourceTree = "<group>";
+		};
+		60BFB7A529D7E1C100FC72FB /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				60BFB7AC29D7E1E300FC72FB /* big100.in */,
+				60BFB7AA29D7E1E300FC72FB /* big100.out */,
+				60BFB7C129D7E1E400FC72FB /* big500.in */,
+				60BFB7B329D7E1E300FC72FB /* big500.out */,
+				60BFB7C729D7E1E400FC72FB /* big1000.in */,
+				60BFB7C229D7E1E400FC72FB /* big1000.out */,
+				60BFB7B929D7E1E300FC72FB /* big5000.in */,
+				60BFB7C529D7E1E400FC72FB /* big5000.out */,
+				60BFB7A629D7E1E300FC72FB /* big10000.in */,
+				60BFB7BF29D7E1E400FC72FB /* big10000.out */,
+				60BFB7C629D7E1E400FC72FB /* big50000.in */,
+				60BFB7B429D7E1E300FC72FB /* big50000.out */,
+				60BFB7B529D7E1E300FC72FB /* huge1.in */,
+				60BFB7B829D7E1E300FC72FB /* huge1.out */,
+				60BFB7C829D7E1E400FC72FB /* huge2.in */,
+				60BFB7C029D7E1E400FC72FB /* huge2.out */,
+				60BFB7B629D7E1E300FC72FB /* huge3.in */,
+				60BFB7C329D7E1E400FC72FB /* huge3.out */,
+				60BFB7AF29D7E1E300FC72FB /* huge4.in */,
+				60BFB7AB29D7E1E300FC72FB /* huge4.out */,
+				60BFB7B729D7E1E300FC72FB /* huge5.in */,
+				60BFB7A729D7E1E300FC72FB /* huge5.out */,
+				60BFB7A929D7E1E300FC72FB /* huge6.in */,
+				60BFB7A829D7E1E300FC72FB /* huge6.out */,
+				60BFB7AD29D7E1E300FC72FB /* huge7.in */,
+				60BFB7C429D7E1E400FC72FB /* huge7.out */,
+				60BFB7C929D7E1E400FC72FB /* huge8.in */,
+				60BFB7B129D7E1E300FC72FB /* huge8.out */,
+				60BFB7BD29D7E1E400FC72FB /* huge9.in */,
+				60BFB7BA29D7E1E300FC72FB /* huge9.out */,
+				60BFB7BC29D7E1E400FC72FB /* huge10.in */,
+				60BFB7BB29D7E1E400FC72FB /* huge10.out */,
+				60BFB7BE29D7E1E400FC72FB /* sample3.in */,
+				60BFB7B229D7E1E300FC72FB /* sample3.out */,
+				60BFB7B029D7E1E300FC72FB /* sample4.in */,
+				60BFB7AE29D7E1E300FC72FB /* sample4.out */,
+			);
+			path = Testing;
 			sourceTree = "<group>";
 		};
 		60C8079A29CCE87F00B19C00 /* Examples */ = {

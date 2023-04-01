@@ -222,6 +222,66 @@ import Foundation
 
 //whosMyParent()
 
+// MARK: - Graph -> Examples -> WhosMyParent With In-out Testing file
+
+// Step1: execute the command below to compile main.swift to executable.
+//        xcrun -sdk macosx swiftc main.swift -o WhosMyParent
+// Step2: execute WhosMyParent to testing
+//        ./WhosMyParent ./inputfile.in ./outputfile.out
+
+//func whosMyParentWithTestingFile(input: String) -> String {
+//  func dfs(result: inout [Int:Int]) {
+//    var stack: [(node: Int, parent: Int?)] = []
+//    stack.append((node: 1, parent: nil))
+//
+//    while !stack.isEmpty {
+//      let (node, parent) = stack.removeFirst()
+//      result[node] = parent
+//      for child in adjList[node] {
+//        if child != parent {
+//          stack.append((node: child, parent: node))
+//        }
+//      }
+//    }
+//  }
+//
+//  let inputLines = input.components(separatedBy: "\n").filter({ $0 != "" })
+//  let n = Int(inputLines[0])!
+//  let m = n - 1
+//  var adjList = [[Int]](repeating: [], count: n + 1)
+//
+//  for i in 1...m {
+//    let edge = inputLines[i].components(separatedBy: " ").map { Int($0)! }
+//    let u = edge[0]
+//    let v = edge[1]
+//    adjList[u].append(v)
+//    adjList[v].append(u)
+//  }
+//
+//  var result = [Int:Int]()
+//  dfs(result: &result)
+//
+//  var resultStr = ""
+//  for i in 2...n {
+//    resultStr += "\(result[i]!)\n"
+//  }
+//  return resultStr
+//}
+//
+//let inputFile = CommandLine.arguments[1]
+//let outputFile = CommandLine.arguments[2]
+//
+//let inputString = try String(contentsOfFile: inputFile).trimmingCharacters(in: .whitespacesAndNewlines)
+//let OutputString = try String(contentsOfFile: outputFile).trimmingCharacters(in: .whitespacesAndNewlines)
+//let outputArray = OutputString.components(separatedBy: "\n").filter{ !$0.isEmpty }
+//let output = whosMyParentWithTestingFile(input: inputString).components(separatedBy: "\n").filter{ !$0.isEmpty }
+//
+//if output == outputArray {
+//  print("Test passed.")
+//} else {
+//  print("Test failed.")
+//}
+
 // MARK: - Graph -> Examples -> Diameter
 
 // Example Input1
