@@ -196,7 +196,7 @@ import Foundation
 
 //repeatingSequence()
 
-// MARK: - Graph -> Examples -> WhosMyParent
+// MARK: - Tree -> Examples -> WhosMyParent
 
 // Example Input1
 //7
@@ -220,9 +220,10 @@ import Foundation
 //6 11
 //6 12
 
-//whosMyParent()
+//whosMyParentWithDFS()
+//whosMyParentWithBFS()
 
-// MARK: - Graph -> Examples -> WhosMyParent With In-out Testing file
+// MARK: - Tree -> Examples -> WhosMyParent With In-out Testing file
 
 // Step1: execute the command below to compile main.swift to executable.
 //        xcrun -sdk macosx swiftc main.swift -o WhosMyParent
@@ -282,7 +283,7 @@ import Foundation
 //  print("Test failed.")
 //}
 
-// MARK: - Graph -> Examples -> Diameter
+// MARK: - Tree -> Examples -> Diameter
 
 // Example Input1
 //5
@@ -303,3 +304,7 @@ import Foundation
 //8 7 5 -1
 
 //diameter()
+
+// MARK: - Tree -> Examples -> Diameter
+
+lca()
