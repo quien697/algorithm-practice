@@ -305,6 +305,98 @@ import Foundation
 
 //diameter()
 
-// MARK: - Tree -> Examples -> Diameter
+// MARK: - Tree -> Examples -> LCA (Lowest Common Ancestor)
 
-lca()
+// Example Input
+//15
+//1 2
+//1 3
+//2 4
+//3 7
+//6 2
+//3 8
+//4 9
+//2 5
+//5 11
+//7 13
+//10 4
+//11 15
+//12 5
+//14 7
+//6
+//6 11
+//10 9
+//2 6
+//7 6
+//8 13
+//8 15
+
+//lca()
+
+// MARK: - Tree -> Examples -> Sushi
+
+// Eample Input 1
+//8 2
+//5 2
+//0 1
+//0 2
+//2 3
+//4 3
+//6 1
+//1 5
+//7 3
+
+// Eample Input 2
+//8 5
+//0 6 4 3 7
+//0 1
+//0 2
+//2 3
+//4 3
+//6 1
+//1 5
+//7 3
+
+//shshi()
+
+// MARK: - Tree -> Examples -> Sushi With Testing in-out Files
+
+// num 1 to 25
+//let testingNum = 25
+//
+//let input = try! String(contentsOfFile: "/Users/quien/Programmer/Project/07.AlgorithmPractice/Swift-AGDS/Swift-AGDS/Tree/Examples/Testing/Sushi/sushi.\(testingNum).in")
+//
+//let output = try! String(contentsOfFile: "/Users/quien/Programmer/Project/07.AlgorithmPractice/Swift-AGDS/Swift-AGDS/Tree/Examples/Testing/Sushi/sushi.\(testingNum).out")
+//
+//let startTime = DispatchTime.now()
+//
+//print("---output---")
+//shshi(input: input)
+//print("---answer---")
+//print(output)
+//
+//let endTime = DispatchTime.now()
+//let timeElapsed = endTime.uptimeNanoseconds - startTime.uptimeNanoseconds
+//let timeElapsedInSeconds = Double(timeElapsed) / 1_000_000_000
+//
+//print("Time taken: \(timeElapsedInSeconds) seconds")
+
+// MARK: - Graph -> Flood Fill -> Town
+
+//town()
+
+// MARK: - Graph -> Flood Fill -> Maze
+
+//maze()
+
+// MARK: - Graph -> Flood Fill -> Tomato Farm
+
+//tomatoFarm()
+
+// MARK: - Graph -> Flood Fill -> Bridges
+
+//bridges()
+
+// MARK: - Graph -> Topological Sort
+
+topologicalSort()
