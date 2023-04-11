@@ -198,9 +198,9 @@ import Foundation
 
 // MARK: - Tree -> Tree Traversal
 
-treeTraversal()
+//treeTraversal()
 
-// MARK: - Tree -> Examples -> WhosMyParent
+// MARK: - Tree -> WhosMyParent
 
 // Example Input1
 //7
@@ -224,10 +224,10 @@ treeTraversal()
 //6 11
 //6 12
 
-//whosMyParentWithDFS()
+whosMyParentWithDFS()
 //whosMyParentWithBFS()
 
-// MARK: - Tree -> Examples -> WhosMyParent With In-out Testing file
+// MARK: - Tree -> WhosMyParent With In-out Testing file
 
 // Step1: execute the command below to compile main.swift to executable.
 //        xcrun -sdk macosx swiftc main.swift -o WhosMyParent
@@ -287,7 +287,7 @@ treeTraversal()
 //  print("Test failed.")
 //}
 
-// MARK: - Tree -> Examples -> Diameter
+// MARK: - Tree -> Diameter
 
 // Example Input1
 //5
@@ -309,7 +309,7 @@ treeTraversal()
 
 //diameter()
 
-// MARK: - Tree -> Examples -> LCA (Lowest Common Ancestor)
+// MARK: - Tree -> LCA (Lowest Common Ancestor)
 
 // Example Input
 //15
@@ -337,7 +337,7 @@ treeTraversal()
 
 //lca()
 
-// MARK: - Tree -> Examples -> Sushi
+// MARK: - Tree -> Sushi
 
 // Eample Input 1
 //8 2
@@ -363,7 +363,7 @@ treeTraversal()
 
 //shshi()
 
-// MARK: - Tree -> Examples -> Sushi With Testing in-out Files
+// MARK: - Tree -> Sushi With Testing in-out Files
 
 // num 1 to 25
 //let testingNum = 25
@@ -404,5 +404,3 @@ treeTraversal()
 // MARK: - Graph -> Topological Sort
 
 //topologicalSort()
-
-

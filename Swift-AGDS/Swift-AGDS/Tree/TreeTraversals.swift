@@ -49,10 +49,7 @@ func postOrder(_ node: Int) {
 
 var tree = [[Int]](repeating: [Int](repeating: 0, count: 2), count: 26)
 
-
-
 func treeTraversal() {
-  
   // get user input and store in our 2D data structure
   let n = Int(readLine()!)!
   for _ in 0..<n {

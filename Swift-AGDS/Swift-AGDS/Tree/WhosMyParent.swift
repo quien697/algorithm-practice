@@ -60,13 +60,6 @@ func whosMyParentWithDFS() {
   for i in 2...n {
     print(parent[i])
   }
-  print(parent)
-  
-  func aaa(_ a: Int, _ b: Int){
-    if parent[a] == parent[b] {
-      print(parent[a])
-    }
-  }
 }
 
 func whosMyParentWithBFS() {

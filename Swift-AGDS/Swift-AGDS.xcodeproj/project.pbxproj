@@ -39,6 +39,8 @@
 		60F4527929CADE11004FFBF2 /* Bipartite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4527829CADE11004FFBF2 /* Bipartite.swift */; };
 		60F4527B29CADE27004FFBF2 /* ConnectedComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4527A29CADE27004FFBF2 /* ConnectedComponents.swift */; };
 		60F6C68929E5264A0003E9DB /* TopologicalSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F6C68829E5264A0003E9DB /* TopologicalSort.swift */; };
+		60F6C68B29E5361F0003E9DB /* CourseSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F6C68A29E5361F0003E9DB /* CourseSchedule.swift */; };
+		60F6C68D29E5577B0003E9DB /* CourseSchedule2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F6C68C29E5577B0003E9DB /* CourseSchedule2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -198,6 +200,8 @@
 		60F4527829CADE11004FFBF2 /* Bipartite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bipartite.swift; sourceTree = "<group>"; };
 		60F4527A29CADE27004FFBF2 /* ConnectedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedComponents.swift; sourceTree = "<group>"; };
 		60F6C68829E5264A0003E9DB /* TopologicalSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopologicalSort.swift; sourceTree = "<group>"; };
+		60F6C68A29E5361F0003E9DB /* CourseSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSchedule.swift; sourceTree = "<group>"; };
+		60F6C68C29E5577B0003E9DB /* CourseSchedule2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSchedule2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,22 +218,14 @@
 		600278E129D40C2700AF6B65 /* Tree */ = {
 			isa = PBXGroup;
 			children = (
-				600278E429D53D1D00AF6B65 /* Examples */,
-				60BFB82929DE735600FC72FB /* TreeTraversals.swift */,
-			);
-			path = Tree;
-			sourceTree = "<group>";
-		};
-		600278E429D53D1D00AF6B65 /* Examples */ = {
-			isa = PBXGroup;
-			children = (
 				60BFB7A529D7E1C100FC72FB /* Testing */,
 				600278E529D53D5600AF6B65 /* WhosMyParent.swift */,
 				600278E729D5882A00AF6B65 /* Diameter.swift */,
 				60BFB7CE29DC1AA400FC72FB /* LCA.swift */,
 				60BFB81E29DD0D5A00FC72FB /* Sushi.swift */,
+				60BFB82929DE735600FC72FB /* TreeTraversals.swift */,
 			);
-			path = Examples;
+			path = Tree;
 			sourceTree = "<group>";
 		};
 		6025C8E329BE3C7100F393ED /* Utils */ = {
@@ -509,6 +505,8 @@
 			isa = PBXGroup;
 			children = (
 				60F6C68829E5264A0003E9DB /* TopologicalSort.swift */,
+				60F6C68A29E5361F0003E9DB /* CourseSchedule.swift */,
+				60F6C68C29E5577B0003E9DB /* CourseSchedule2.swift */,
 			);
 			path = TopologicalSort;
 			sourceTree = "<group>";
@@ -579,6 +577,7 @@
 				60BFB83629E3790900FC72FB /* Bridges.swift in Sources */,
 				60BFB7CF29DC1AA400FC72FB /* LCA.swift in Sources */,
 				6025C8E729BE483400F393ED /* ExhaustiveSearch.swift in Sources */,
+				60F6C68D29E5577B0003E9DB /* CourseSchedule2.swift in Sources */,
 				60F4526229C8F41C004FFBF2 /* Bag.swift in Sources */,
 				60F4526D29CAA48E004FFBF2 /* AdjacencyList.swift in Sources */,
 				60BFB82229DE127E00FC72FB /* Maze.swift in Sources */,
@@ -590,6 +589,7 @@
 				6025C90129BFBD7A00F393ED /* Backtracking.swift in Sources */,
 				60BFB83429E0B07000FC72FB /* TomatoFarm.swift in Sources */,
 				60F4527929CADE11004FFBF2 /* Bipartite.swift in Sources */,
+				60F6C68B29E5361F0003E9DB /* CourseSchedule.swift in Sources */,
 				6025C8FD29BFBB0100F393ED /* Board.swift in Sources */,
 				60F4527B29CADE27004FFBF2 /* ConnectedComponents.swift in Sources */,
 				60D8269F29BA87D700FA67D0 /* Recursion.swift in Sources */,

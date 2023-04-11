@@ -7,6 +7,29 @@
 
 import Foundation
 
+// Sample Input
+//9 10
+//1 4
+//1 9
+//2 4
+//3 5
+//4 7
+//5 7
+//5 6
+//7 6
+//6 8
+//7 8
+// Sample Output
+//1
+//2
+//3
+//4
+//5
+//7
+//6
+//8
+//9
+
 // DAG (directed acyclic graph)
 func topologicalSort() {
   let firstLine = readLine()!.split(separator: " ").map{ Int($0)! }
