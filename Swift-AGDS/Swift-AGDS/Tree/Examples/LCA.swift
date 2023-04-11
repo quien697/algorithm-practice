@@ -8,6 +8,7 @@
 import Foundation
 
 // Lowest Common Ancestor
+// https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
 func lca() {
   func bfs(start: Int, adjList: inout [[Int]], visited: inout [Bool], parent: inout [Int], depth: inout [Int]) {
     let queue = Queue<(Int)>()
@@ -65,5 +66,4 @@ func lca() {
     }
     print(u)
   }
-  
 }

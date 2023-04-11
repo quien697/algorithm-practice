@@ -53,7 +53,6 @@ func diameter() {
       i += 2
     }
   }
-  
   var result: (node: Int, distance: Int) = (node: 0, distance: 0)
   bfs(start: 1, adjList: &adjList, result: &result)
   bfs(start: result.node, adjList: &adjList, result: &result)
