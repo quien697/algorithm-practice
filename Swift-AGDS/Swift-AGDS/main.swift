@@ -224,7 +224,7 @@ import Foundation
 //6 11
 //6 12
 
-whosMyParentWithDFS()
+//whosMyParentWithDFS()
 //whosMyParentWithBFS()
 
 // MARK: - Tree -> WhosMyParent With In-out Testing file
