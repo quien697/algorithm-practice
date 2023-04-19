@@ -122,6 +122,8 @@
 		60952BA729EE37AF00F52EA6 /* mcf.19.in in Resources */ = {isa = PBXBuildFile; fileRef = 60952B3D29EE37AF00F52EA6 /* mcf.19.in */; };
 		60952BA829EE37AF00F52EA6 /* mcf.02.in in Resources */ = {isa = PBXBuildFile; fileRef = 60952B3E29EE37AF00F52EA6 /* mcf.02.in */; };
 		60952BA929EE37AF00F52EA6 /* mcf.22.in in Resources */ = {isa = PBXBuildFile; fileRef = 60952B3F29EE37AF00F52EA6 /* mcf.22.in */; };
+		60952BAC29EF9D9200F52EA6 /* DijkstraArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60952BAB29EF9D9200F52EA6 /* DijkstraArray.swift */; };
+		60952BAE29EF9DA700F52EA6 /* DijkstraPQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60952BAD29EF9DA700F52EA6 /* DijkstraPQ.swift */; };
 		60BFB7CF29DC1AA400FC72FB /* LCA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BFB7CE29DC1AA400FC72FB /* LCA.swift */; };
 		60BFB81F29DD0D5A00FC72FB /* Sushi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BFB81E29DD0D5A00FC72FB /* Sushi.swift */; };
 		60BFB82229DE127E00FC72FB /* Maze.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BFB82129DE127E00FC72FB /* Maze.swift */; };
@@ -281,6 +283,8 @@
 		60952B3D29EE37AF00F52EA6 /* mcf.19.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.19.in; sourceTree = "<group>"; };
 		60952B3E29EE37AF00F52EA6 /* mcf.02.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.02.in; sourceTree = "<group>"; };
 		60952B3F29EE37AF00F52EA6 /* mcf.22.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.22.in; sourceTree = "<group>"; };
+		60952BAB29EF9D9200F52EA6 /* DijkstraArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DijkstraArray.swift; sourceTree = "<group>"; };
+		60952BAD29EF9DA700F52EA6 /* DijkstraPQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DijkstraPQ.swift; sourceTree = "<group>"; };
 		60BFB7A629D7E1E300FC72FB /* big10000.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = big10000.in; sourceTree = "<group>"; };
 		60BFB7A729D7E1E300FC72FB /* huge5.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge5.out; sourceTree = "<group>"; };
 		60BFB7A829D7E1E300FC72FB /* huge6.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = huge6.out; sourceTree = "<group>"; };
@@ -587,6 +591,15 @@
 			path = MinimumCostFlow;
 			sourceTree = "<group>";
 		};
+		60952BAA29EF9D7100F52EA6 /* Shortest Path */ = {
+			isa = PBXGroup;
+			children = (
+				60952BAB29EF9D9200F52EA6 /* DijkstraArray.swift */,
+				60952BAD29EF9DA700F52EA6 /* DijkstraPQ.swift */,
+			);
+			path = "Shortest Path";
+			sourceTree = "<group>";
+		};
 		60BFB7A529D7E1C100FC72FB /* Testing */ = {
 			isa = PBXGroup;
 			children = (
@@ -832,6 +845,7 @@
 		60F4526729CA5441004FFBF2 /* Graph */ = {
 			isa = PBXGroup;
 			children = (
+				60952BAA29EF9D7100F52EA6 /* Shortest Path */,
 				60F6C68729E5262C0003E9DB /* TopologicalSort */,
 				60BFB82029DE125900FC72FB /* Flood Fill */,
 				60BFB81D29DD0A8C00FC72FB /* Helper Classes */,
@@ -1089,6 +1103,7 @@
 				60FDA8EA29E9E95A00B54F43 /* MST.swift in Sources */,
 				60FDA8A229E7458E00B54F43 /* UnionFind.swift in Sources */,
 				60F4526429C9818E004FFBF2 /* Stack.swift in Sources */,
+				60952BAE29EF9DA700F52EA6 /* DijkstraPQ.swift in Sources */,
 				6025C90129BFBD7A00F393ED /* Backtracking.swift in Sources */,
 				60BFB83429E0B07000FC72FB /* TomatoFarm.swift in Sources */,
 				60F4527929CADE11004FFBF2 /* Bipartite.swift in Sources */,
@@ -1103,6 +1118,7 @@
 				60952AD229EE375500F52EA6 /* MinimumCostFlow.swift in Sources */,
 				60D8269729BA87B400FA67D0 /* main.swift in Sources */,
 				6025C8FF29BFBB0800F393ED /* QueensSolver.swift in Sources */,
+				60952BAC29EF9D9200F52EA6 /* DijkstraArray.swift in Sources */,
 				60F6C68929E5264A0003E9DB /* TopologicalSort.swift in Sources */,
 				60BFB82429DE51F800FC72FB /* Town.swift in Sources */,
 				600278E629D53D5600AF6B65 /* WhosMyParent.swift in Sources */,
