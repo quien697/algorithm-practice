@@ -404,3 +404,29 @@ import Foundation
 // MARK: - Graph -> Topological Sort
 
 //topologicalSort()
+
+// MARK: - Greedy -> Minimum Cost Flow
+
+//minimumCostFlow()
+
+// MARK: - Greedy -> Minimum Cost Flow With Testing in-out Files
+
+// num 1 to 50
+//let testingNum = "02"
+//// 33 36 39 40 44 49 45
+//let input = try! String(contentsOfFile: "/Users/quien/Programmer/Project/07.AlgorithmPractice/Swift-AGDS/Swift-AGDSTest/MinimumCostFlow/mcf.\(testingNum).in")
+//
+//let output = try! String(contentsOfFile: "/Users/quien/Programmer/Project/07.AlgorithmPractice/Swift-AGDS/Swift-AGDSTest/MinimumCostFlow/mcf.\(testingNum).out")
+//
+//let startTime = DispatchTime.now()
+//
+//print("---output---")
+//minimumCostFlow(input: input)
+//print("---answer---")
+//print(output)
+//
+//let endTime = DispatchTime.now()
+//let timeElapsed = endTime.uptimeNanoseconds - startTime.uptimeNanoseconds
+//let timeElapsedInSeconds = Double(timeElapsed) / 1_000_000_000
+//
+//print("Time taken: \(timeElapsedInSeconds) seconds")
