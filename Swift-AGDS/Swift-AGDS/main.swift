@@ -430,3 +430,51 @@ import Foundation
 //let timeElapsedInSeconds = Double(timeElapsed) / 1_000_000_000
 //
 //print("Time taken: \(timeElapsedInSeconds) seconds")
+
+
+
+//var a = [0,1,2,3,999]
+//
+//
+//print(a.max { $0 < $1 && $0 != 999 && $1 != 999 })
+
+//floyd()
+
+// MARK: - Dynamic Programming -> ClimbingStairs
+
+//print(climbStairs(45))
+//print(climbStairs2(45))
+
+// MARK: - Dynamic Programming -> MakeOne
+
+//print(makeOne(10))
+
+// MARK: - Dynamic Programming -> 2 x N Tiles
+
+//print(twoByNTiles(5))
+
+// MARK: - Dynamic Programming -> 2 x N Tiles part 2
+
+//print(twoByNTiles2(12))
+
+// MARK: - Dynamic Programming -> One two Three
+
+//OneTwoThree()
+
+// MARK: - Dynamic Programming -> Pretty Number
+
+//print(prettyNumber(1))
+
+// MARK: - Dynamic Programming -> Non-decreasing Digits
+
+//print(nonDecreasingDigits(3))
+
+// MARK: - Dynamic Programming -> Longest Increasing Subsequence
+
+//print(lengthOfLIS([1, 2, 2, 3, 3, 4, 1]))
+
+// MARK: - Dynamic Programming -> Sum Of Square Numbers
+
+//print(SumOfSquareNumbers(18))
+
+floyd()
