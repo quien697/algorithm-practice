@@ -22,7 +22,7 @@ import Foundation
 func prettyNumber(_ n: Int) -> Int {
   // Using Bottom-up Approach -> Tabulation + Memorization.
   // recurrence
-  // d[N][L] = the total number of pretty numbers with N digits and ends with L
+  // d[N][L] = the total number of pretty numbers with N digits and ends with L (Last digits)
   // d[n] = d[N-1][L-1] + d[N-1][L+1] where 1 <= L <= 8
   // d[N][L] = d[N-1][L-1] where L = 9
   // d[N][L] = d[N-1][L+1] where L = 0

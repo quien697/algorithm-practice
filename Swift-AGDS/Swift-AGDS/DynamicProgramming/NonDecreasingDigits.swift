@@ -22,22 +22,19 @@ import Foundation
 func nonDecreasingDigits(_ n: Int) -> Int {
   // Using Bottom-up Approach -> Tabulation + Memorization.
   // recurrence
-  // d[N][L] = the total number of pretty numbers with N digits and ends with L
-  // d[n] = d[i - 1][j] + d[i][j - 1]
+  // d[n][1] = 1
+  // d[n][j] = d[n - 1][j] + d[n][j - 1]
   
   var d = [[Int]](repeating: [Int](repeating: 0, count: 10), count: n + 1)
   for i in 0...9 {
     d[1][i] = 1
   }
-  print()
+  
   if n > 1 {
     for i in 2...n {
-      for j in 0...9 {
-        if j == 0 {
-          d[i][j] = 1
-        } else {
-          d[i][j] = d[i][j - 1] + d[i - 1][j]
-        }
+      d[i][0] = 1
+      for j in 1...9 {
+        d[i][j] = d[i][j - 1] + d[i - 1][j]
       }
     }
   }

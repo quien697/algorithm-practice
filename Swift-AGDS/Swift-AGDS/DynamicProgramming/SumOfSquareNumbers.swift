@@ -10,7 +10,7 @@ import Foundation
 func SumOfSquareNumbers(_ n: Int) -> Int {
   // Using Bottom-up Approach -> Tabulation + Memorization.
   // recurrence
-  // d[n] = min(d[i], d[i - j * j] + 1) where j * j <= i
+  // d[n] = min(d[n], d[n-(j*j)] + 1) where 1 <= j * j <= n
   
   var d = [Int](repeating: Int.max, count: n + 1)
   d[0] = 0

@@ -22,6 +22,9 @@
 		6037143829F4D6AE0083E911 /* NonDecreasingDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6037143729F4D6AE0083E911 /* NonDecreasingDigits.swift */; };
 		6037143A29F508D00083E911 /* LongestIncreasingSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6037143929F508D00083E911 /* LongestIncreasingSubsequence.swift */; };
 		6037143C29F652B20083E911 /* SumOfSquareNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6037143B29F652B20083E911 /* SumOfSquareNumbers.swift */; };
+		6037144029F79D9D0083E911 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6037143F29F79D9D0083E911 /* Pokemon.swift */; };
+		6037144229F90D240083E911 /* DecodeWays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6037144129F90D240083E911 /* DecodeWays.swift */; };
+		603AAAD22A00698A00C68E48 /* MaximumSubarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603AAAD12A00698A00C68E48 /* MaximumSubarray.swift */; };
 		60952AD229EE375500F52EA6 /* MinimumCostFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60952AD129EE375500F52EA6 /* MinimumCostFlow.swift */; };
 		60952AD329EE375500F52EA6 /* MinimumCostFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60952AD129EE375500F52EA6 /* MinimumCostFlow.swift */; };
 		60952B4029EE37AF00F52EA6 /* mcf.48.in in Resources */ = {isa = PBXBuildFile; fileRef = 60952AD629EE37AB00F52EA6 /* mcf.48.in */; };
@@ -195,6 +198,9 @@
 		6037143729F4D6AE0083E911 /* NonDecreasingDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonDecreasingDigits.swift; sourceTree = "<group>"; };
 		6037143929F508D00083E911 /* LongestIncreasingSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestIncreasingSubsequence.swift; sourceTree = "<group>"; };
 		6037143B29F652B20083E911 /* SumOfSquareNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfSquareNumbers.swift; sourceTree = "<group>"; };
+		6037143F29F79D9D0083E911 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		6037144129F90D240083E911 /* DecodeWays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodeWays.swift; sourceTree = "<group>"; };
+		603AAAD12A00698A00C68E48 /* MaximumSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumSubarray.swift; sourceTree = "<group>"; };
 		60952AD129EE375500F52EA6 /* MinimumCostFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumCostFlow.swift; sourceTree = "<group>"; };
 		60952AD629EE37AB00F52EA6 /* mcf.48.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.48.in; sourceTree = "<group>"; };
 		60952AD729EE37AB00F52EA6 /* mcf.27.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mcf.27.in; sourceTree = "<group>"; };
@@ -473,7 +479,6 @@
 		600278E129D40C2700AF6B65 /* Tree */ = {
 			isa = PBXGroup;
 			children = (
-				60BFB7A529D7E1C100FC72FB /* Testing */,
 				600278E529D53D5600AF6B65 /* WhosMyParent.swift */,
 				600278E729D5882A00AF6B65 /* Diameter.swift */,
 				60BFB7CE29DC1AA400FC72FB /* LCA.swift */,
@@ -511,6 +516,9 @@
 				6037143729F4D6AE0083E911 /* NonDecreasingDigits.swift */,
 				6037143929F508D00083E911 /* LongestIncreasingSubsequence.swift */,
 				6037143B29F652B20083E911 /* SumOfSquareNumbers.swift */,
+				6037143F29F79D9D0083E911 /* Pokemon.swift */,
+				6037144129F90D240083E911 /* DecodeWays.swift */,
+				603AAAD12A00698A00C68E48 /* MaximumSubarray.swift */,
 			);
 			path = DynamicProgramming;
 			sourceTree = "<group>";
@@ -646,13 +654,6 @@
 				60952BB429F2230F00F52EA6 /* PathFinding.swift */,
 			);
 			path = Example;
-			sourceTree = "<group>";
-		};
-		60BFB7A529D7E1C100FC72FB /* Testing */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Testing;
 			sourceTree = "<group>";
 		};
 		60BFB7D029DCB74000FC72FB /* WhosMyParent */ = {
@@ -983,7 +984,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					60D8269229BA87B400FA67D0 = {
 						CreatedOnToolsVersion = 14.2;
@@ -1153,6 +1154,7 @@
 				60BFB82A29DE735600FC72FB /* TreeTraversals.swift in Sources */,
 				60C8079C29CE2E5F00B19C00 /* CyclicPermutation.swift in Sources */,
 				60F4526629C98199004FFBF2 /* Queue.swift in Sources */,
+				6037144029F79D9D0083E911 /* Pokemon.swift in Sources */,
 				60FDA8EA29E9E95A00B54F43 /* MST.swift in Sources */,
 				60FDA8A229E7458E00B54F43 /* UnionFind.swift in Sources */,
 				60952BB029F0D4D800F52EA6 /* BellmanFord.swift in Sources */,
@@ -1167,6 +1169,7 @@
 				6025C8FD29BFBB0100F393ED /* Board.swift in Sources */,
 				60F4527B29CADE27004FFBF2 /* ConnectedComponents.swift in Sources */,
 				60952BB329F1DA0A00F52EA6 /* Floyd.swift in Sources */,
+				6037144229F90D240083E911 /* DecodeWays.swift in Sources */,
 				60D8269F29BA87D700FA67D0 /* Recursion.swift in Sources */,
 				60F4527129CAAF4D004FFBF2 /* DFS.swift in Sources */,
 				60F4526B29CAA096004FFBF2 /* AdjacencyMatrix.swift in Sources */,
@@ -1177,6 +1180,7 @@
 				6037143829F4D6AE0083E911 /* NonDecreasingDigits.swift in Sources */,
 				6025C8FF29BFBB0800F393ED /* QueensSolver.swift in Sources */,
 				60952BAC29EF9D9200F52EA6 /* DijkstraArray.swift in Sources */,
+				603AAAD22A00698A00C68E48 /* MaximumSubarray.swift in Sources */,
 				60F6C68929E5264A0003E9DB /* TopologicalSort.swift in Sources */,
 				60952BB529F2230F00F52EA6 /* PathFinding.swift in Sources */,
 				60BFB82429DE51F800FC72FB /* Town.swift in Sources */,
@@ -1231,6 +1235,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -1291,6 +1296,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1315,6 +1321,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 4CDTPKY853;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1326,6 +1333,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 4CDTPKY853;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1338,6 +1346,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 4CDTPKY853;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.2;
@@ -1354,6 +1363,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 4CDTPKY853;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.2;

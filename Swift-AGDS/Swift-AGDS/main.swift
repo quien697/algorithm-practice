@@ -385,31 +385,35 @@ import Foundation
 //
 //print("Time taken: \(timeElapsedInSeconds) seconds")
 
-// MARK: - Graph -> Flood Fill -> Town
+// MARK: - Graph -> Flood Fill
+
+// MARK: Graph -> Flood Fill -> Town
 
 //town()
 
-// MARK: - Graph -> Flood Fill -> Maze
+// MARK: Graph -> Flood Fill -> Maze
 
 //maze()
 
-// MARK: - Graph -> Flood Fill -> Tomato Farm
+// MARK: Graph -> Flood Fill -> Tomato Farm
 
 //tomatoFarm()
 
-// MARK: - Graph -> Flood Fill -> Bridges
+// MARK: Graph -> Flood Fill -> Bridges
 
 //bridges()
 
-// MARK: - Graph -> Topological Sort
+// MARK: Graph -> Topological Sort
 
 //topologicalSort()
 
-// MARK: - Greedy -> Minimum Cost Flow
+// MARK: - Greedy
+
+// MARK: Greedy -> Minimum Cost Flow
 
 //minimumCostFlow()
 
-// MARK: - Greedy -> Minimum Cost Flow With Testing in-out Files
+// MARK: Greedy -> Minimum Cost Flow With Testing in-out Files
 
 // num 1 to 50
 //let testingNum = "02"
@@ -440,41 +444,54 @@ import Foundation
 
 //floyd()
 
-// MARK: - Dynamic Programming -> ClimbingStairs
+// MARK: - Dynamic Programming
+
+// MARK: Dynamic Programming -> ClimbingStairs
 
 //print(climbStairs(45))
 //print(climbStairs2(45))
 
-// MARK: - Dynamic Programming -> MakeOne
+// MARK: Dynamic Programming -> MakeOne
 
 //print(makeOne(10))
 
-// MARK: - Dynamic Programming -> 2 x N Tiles
+// MARK: Dynamic Programming -> 2 x N Tiles
 
 //print(twoByNTiles(5))
 
-// MARK: - Dynamic Programming -> 2 x N Tiles part 2
+// MARK: Dynamic Programming -> 2 x N Tiles part 2
 
 //print(twoByNTiles2(12))
 
-// MARK: - Dynamic Programming -> One two Three
+// MARK: Dynamic Programming -> One two Three
 
 //OneTwoThree()
 
-// MARK: - Dynamic Programming -> Pretty Number
+// MARK: Dynamic Programming -> Pretty Number
 
 //print(prettyNumber(1))
 
-// MARK: - Dynamic Programming -> Non-decreasing Digits
+// MARK: Dynamic Programming -> Non-decreasing Digits
 
-//print(nonDecreasingDigits(3))
+//print(nonDecreasingDigits(4))
 
-// MARK: - Dynamic Programming -> Longest Increasing Subsequence
+// MARK: Dynamic Programming -> Longest Increasing Subsequence
 
-//print(lengthOfLIS([1, 2, 2, 3, 3, 4, 1]))
+//print(lengthOfLIS3([4,10,4,3,8,9]))
 
-// MARK: - Dynamic Programming -> Sum Of Square Numbers
+// MARK: Dynamic Programming -> Sum Of Square Numbers
 
 //print(SumOfSquareNumbers(18))
 
-floyd()
+// MARK: Dynamic Programming -> Pokemon
+
+//Pokemon()
+
+// MARK: Dynamic Programming -> Decode Ways
+
+//print(numDecodings("266101"))
+
+// MARK: Dynamic Programming -> Maximum Subarray
+
+//print(maxSubArray([-2,1,-3,4,-1,2,1,-5,4]))
+

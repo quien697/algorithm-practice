@@ -30,7 +30,7 @@ func twoByNTiles(_ n: Int) -> Int {
 func twoByNTiles2(_ n: Int) -> Int {
   // Using Bottom-up Approach -> Tabulation + Memorization.
   // recurrence
-  // d[n] = d[n - 1] + (d[n - 2] * 2)
+  // d[n] = d[n-1] + (d[n-2] * 2)
   
   var d = [Int](repeating: 0, count: n + 1)
   d[0] = 1

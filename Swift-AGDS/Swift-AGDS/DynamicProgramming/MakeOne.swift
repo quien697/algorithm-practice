@@ -20,7 +20,7 @@ import Foundation
 func makeOne(_ n: Int) -> Int {
   // Using Bottom-up Approach -> Tabulation + Memorization.
   // recurrence
-  // d[n] = min(d[n - 1] + 1, d[n / 2] + 1, d[n / 3] + 1) where n % 2 == 0 && n % 3 == 0
+  // d[n] = min(d[n-1] + 1, d[n/2] + 1, d[n/3] + 1) where n % 2 == 0 && n % 3 == 0
   
   var d = [Int](repeating: 0, count: n + 1)
   d[1] = 0
